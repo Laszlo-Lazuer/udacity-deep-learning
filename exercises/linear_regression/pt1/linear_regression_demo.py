@@ -15,8 +15,6 @@ def comput_error_for_given_points(b, m, points):
         totalError += (y - (m*x+b)) ** 2 #Sum of squared errors
     return totalError / float(len(points))
 
-
-
 def step_gradient(b_current, m_current, points, learningRate):
     #gradient descent
     ##gradient => Direction
@@ -44,7 +42,7 @@ def run():
     points = genfromtxt("data.csv", delimiter=",")
     learning_rate = 0.0001 #Hyper parameter tuning knobs for the model, guess & check
 
-#y = mx + b (slope formula)
+    #y = mx + b (slope formula)
     initial_b = 0 #y intercept
     initial_m = 0 #m slope
     num_iterations = 1000
