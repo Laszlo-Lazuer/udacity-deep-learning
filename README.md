@@ -1,1 +1,3 @@
-# udacity-deep-learning
+#udacity-deep-learning
+
+##Details
