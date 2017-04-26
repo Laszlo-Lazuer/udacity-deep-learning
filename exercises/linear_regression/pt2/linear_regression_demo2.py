@@ -1,3 +1,10 @@
+# file: linear_regression_demo2.py
+# Author: A. Laszlo Lazuer
+# date: 04/25/17
+# Python Version: 3.x
+# Description: Following tutorial from Deep Learning nano Degree
+# Github for example: https://github.com/llSourcell/linear_regression_live
+
 from numpy import *
 
 def compute_error_for_line_given_points(b, m, points):
