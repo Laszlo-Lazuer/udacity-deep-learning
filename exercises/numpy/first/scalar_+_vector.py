@@ -1,12 +1,10 @@
 # file: scalar_+_vector.py
 # Author: A. Laszlo Lazuer
-# date: 04/26/17
+# date: 04/27/17
 # Python Version: 3.x
 # Description: Following tutorial from Deep Learning nano Degree
-# Github for example: https://github.com/llSourcell/linear_regression_liveimport numpy as np
 
-##Add a scalar to a vector using numPY
-
+##Task: Add a scalar to a vector using NumPy
 values = [1,2,3,4,5]
 original_values = values
 values = np.array(values) + 5
